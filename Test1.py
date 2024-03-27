@@ -1,4 +1,4 @@
-from Questgen.main import QGen
+from main import QGen
 
 # Initialize the QGen object
 qgen = QGen()
