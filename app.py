@@ -2,7 +2,7 @@
 
 from flask import Flask, jsonify, request
 from flask_cors import CORS
-from main import QGen
+from .main import QGen
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all domains
