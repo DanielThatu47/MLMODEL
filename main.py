@@ -29,10 +29,10 @@ from flashtext import KeywordProcessor
 # from encoding.encoding import beam_search_decoding
 from Questgen.encoding.encoding import beam_search_decoding
 # from encoding.encoding import beam_search_decoding
-from Questgen.mcq.mcq import tokenize_sentences
-from Questgen.mcq.mcq import get_keywords
-from Questgen.mcq.mcq import get_sentences_for_keyword
-from Questgen.mcq.mcq import generate_questions_mcq
+from .mcq import tokenize_sentences
+from .mcq import get_keywords
+from .mcq import get_sentences_for_keyword
+from .mcq import generate_questions_mcq
 # from Questgen.mcq.mcq import generate_normal_questions
 
 import time
