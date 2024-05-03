@@ -3,7 +3,7 @@ FROM python:3.8
 ENV PYTHONUNBUFFERED 1
 RUN mkdir /aimodel
 WORKDIR /aimodel
-COPY requirements.txt /workdir/
+COPY requirements.txt /aimodel/
 RUN pip install --upgrade pip wheel
 RUN pip install -r requirements.txt
 COPY . /aimodel/
