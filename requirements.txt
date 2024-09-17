@@ -2,7 +2,7 @@ flask==2.0.3
 flask-cors==3.0.10
 torch==1.13.1
 transformers==4.35.2
-sense2vec==1.1.0
+sense2vec==2.0.2
 strsim==0.0.3
 six==1.16.0
 networkx==2.8.7
